@@ -1,6 +1,6 @@
 ﻿namespace WebAPIPersona.Models
 {
-    public class Person
+    public class Personas
     {
         public int Id { get; set; }
         public required string Name { get; set; }

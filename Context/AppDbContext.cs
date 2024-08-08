@@ -16,7 +16,7 @@ namespace WebAPIPersona.Context
         {
             optionsBuilder.UseNpgsql(Configuration.GetSection("ConnectionString")["WebApiDatabase"]);
         }
-        public DbSet<Person> Persons { get; set; }
+        public DbSet<Personas> personas { get; set; }
 
     }
 }
